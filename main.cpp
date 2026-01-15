@@ -22,11 +22,11 @@ int main() {
     presenter.displayWeather(weather.getWeatherInfo(), "Lahaina, Hawaii");
 
     // Sunnyvale, California - coordinates
-    // double latSunnyvale = 37.3688;
-    // double lonSunnyvale = -122.0363;
+    double latSunnyvale = 37.3688;
+    double lonSunnyvale = -122.0363;
 
-    // weather.getWeatherData(latSunnyvale, lonSunnyvale);
-    // presenter.displayWeather(weather.getWeatherInfo(), "Sunnyvale, California");
+    weather.getWeatherData(latSunnyvale, lonSunnyvale);
+    presenter.displayWeather(weather.getWeatherInfo(), "Sunnyvale, California");
 
     return 0;
 }
