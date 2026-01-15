@@ -15,11 +15,11 @@ int main() {
     presenter.displayWeather(weather.getWeatherInfo(), "Esslingen University");
 
     // Lahaina, Hawaii - coordinates
-    double latLahaina = 20.878;
-    double lonLahaina = -156.683;
+    //double latLahaina = 20.878;
+    //double lonLahaina = -156.683;
 
-    weather.getWeatherData(latLahaina, lonLahaina);
-    presenter.displayWeather(weather.getWeatherInfo(), "Lahaina, Hawaii");
+    //weather.getWeatherData(latLahaina, lonLahaina);
+    //presenter.displayWeather(weather.getWeatherInfo(), "Lahaina, Hawaii");
 
     // Sunnyvale, California - coordinates
     double latSunnyvale = 37.3688;
